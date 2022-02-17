@@ -70,7 +70,7 @@ pipeline:
                                     repo: nikpap/payment-service
                                     tags:
                                         - devopsmail26-latest
-                                    dockerfile: " /harness/payment-service/Dockerfile"
+                                    dockerfile: /harness/payment-service/Dockerfile
                                     optimize: true
                                     resources:
                                         limits:
