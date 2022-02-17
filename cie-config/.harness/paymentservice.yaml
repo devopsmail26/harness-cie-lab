@@ -9,7 +9,7 @@ pipeline:
         ci:
             codebase:
                 connectorRef: githubdevopsmail26
-                repoName: " harness-cie-lab"
+                repoName: harness-cie-lab
                 build: <+input>
     stages:
         - stage:
